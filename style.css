@@ -358,6 +358,9 @@ nav ul li a:hover{
     .menu-toggle {
         display: inline;
     }
+    .Navbar{
+        height: 50px;
+    }
 }
 
 @media (max-width: 768px) {
