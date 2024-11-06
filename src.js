@@ -3,3 +3,9 @@ document.querySelectorAll('.service-card').forEach(card => {
         window.location.href = 'link-to-service-page.html';
     });
 });
+
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}
+
+

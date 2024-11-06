@@ -18,15 +18,16 @@
             <nav>
                 <ul>
                     <li class="Name">Malith</li>
-                    <li>Home</li>
-                    <li>About Me</a> </li>
-                    <li>Portfolio</li>
-                    <li>Services</li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Services">Services</a></li>
                     <li class="contact">Contact Me➜</li>
                 </ul>
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
             </nav>
         </div>
-        <div class="Home">
+        <div class="Home" id="Home">
             <p class="para"> "AS an Undergraduate I'm eager to level up my Programing skills and for my future career
                 development I'm studying UI/UX Design.</p>
 
@@ -44,7 +45,7 @@
             <img src="Assests/I’m Malith.png" alt="My Description">
         </div>
 
-        <div class="aboutme">
+        <div class="aboutme" id="aboutme">
             <h2>About<span> Me</span></h2>
             <div class="aboutmecontent">
                 <p class="paraabout">
@@ -63,7 +64,7 @@
             </div>
         </div>
 
-        <div class="Portfolio">
+        <div class="Portfolio" id="Portfolio">
             <h2>Portfolio</h2>
             <div class="Designs">
                 <div class="Designs-card">
@@ -84,7 +85,7 @@
                     <img src="Assests/Cover Image.png" alt="Luxe Latte Launge">
                 </div>
             </div>
-            <br/>
+            <br />
             <div class="Designs">
                 <div class="Designs-card">
                     <h3>Mario Photography</h3>
@@ -98,18 +99,17 @@
 
                 </div>
             </div>
-            
+
         </div>
 
-        <div class="services">
+        <div class="services" id="Services">
             <h2>My <span>Services</span></h2>
             <hr>
             <p>I will give you below mentioned services with my best effort !</p>
             <div class="service-container">
                 <div class="service-card">
                     <h3>UI/UX Design</h3>
-                    <img src="Assests/Modern App Portfolio Mockup Presentation (2).png" class="UI"
-                        alt="UI/UX Design">
+                    <img src="Assests/Modern App Portfolio Mockup Presentation (2).png" class="UI" alt="UI/UX Design">
                     <div class="icon-arrow">→</div>
                 </div>
                 <div class="service-card">
@@ -123,6 +123,20 @@
                     <div class="icon-arrow">→</div>
                 </div>
             </div>
+        </div>
+
+        <div class="Contact">
+            <h2>Contact <span>Me</span></h2>
+            <form>
+                <input type="text" placeholder="First Name :"> 
+                <input type="text" placeholder="Last Name :"> <br />
+                <input type="email" placeholder="E-mail :" class="email"><br />
+                <label>Date :</label><input type="date" > <br />
+                <textarea rows="4" cols="50" name="comment" form="usrform">
+                    Enter text here...</textarea>
+                <br />
+                <input type="submit" value="Submit">
+            </form>
         </div>
 
     </div>
