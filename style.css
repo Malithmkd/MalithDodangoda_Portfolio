@@ -14,14 +14,14 @@ nav {
     /* Aligns the navbar to the top of the viewport */
     width: 90%;
     /* Adjust width to prevent stretching across the entire viewport */
-    
+
     /* Optional max-width for larger screens */
     left: 50%;
     /* Center the navbar */
     transform: translateX(-50%);
     /* Centering the navbar horizontally */
     z-index: 1;
-    
+
 }
 
 nav ul {
@@ -41,24 +41,26 @@ nav ul li {
     cursor: pointer;
     font-family: sans-serif;
     font-size: large;
-    
+
 }
+
 html {
     scroll-behavior: smooth;
 }
 
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: #ffffff;
     scroll-behavior: smooth;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #f10a0a;
 }
+
 .contact {
-    margin-left:auto;
+    margin-left: auto;
     /* Push "Contact Me" to the far right */
     background-color: #f44336;
     border-radius: 25px;
@@ -116,9 +118,10 @@ nav ul li a:hover{
     top: 70%;
 }
 
-.icons i:hover{
+.icons i:hover {
     color: #f44336;
 }
+
 .fb {
     right: 150px;
     top: 70%;
@@ -138,14 +141,14 @@ nav ul li a:hover{
     position: absolute;
 }
 
-.Behance{
+.Behance {
     right: 0;
     top: 70%;
     position: absolute;
 }
 
 /*aboutme*/
-.aboutme{
+.aboutme {
     background: #333;
     border-radius: 40px;
     width: auto;
@@ -153,27 +156,29 @@ nav ul li a:hover{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0; 
-    margin-top: 50px;  
+    margin-bottom: 0;
+    margin-top: 50px;
 }
-.aboutmecontent p{
+
+.aboutmecontent p {
     width: 40%;
     margin-left: 5%;
     color: #fff;
     font-family: sans-serif;
     margin-top: 0;
     padding-top: 0px;
-    gap: 0px;    
-}
-.aboutmecontent{
-    display:inline-flex;
-    justify-content: space-between; 
-    align-items: center;
-    margin: 0;
-    
+    gap: 0px;
 }
 
-.aboutme h2{
+.aboutmecontent {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+
+}
+
+.aboutme h2 {
     text-align: center;
     font-family: sans-serif;
     font-size: 50px;
@@ -182,25 +187,27 @@ nav ul li a:hover{
     padding: 20px 0 5px;
 }
 
-.aboutme h2 span{
-    color:#f44336
+.aboutme h2 span {
+    color: #f44336
 }
+
 .AboutImage {
     width: 550px;
     height: 550px;
     margin: 0;
     margin-top: -100px;
 }
-.UL{
+
+.UL {
     margin-left: -1000px;
-    display:flex;
+    display: flex;
     justify-content: left;
     font-family: sans-serif;
     color: aliceblue;
 }
 
 /*Designs*/
-.Portfolio{
+.Portfolio {
     text-align: center;
     background-color: #ffffff;
     color: #000000;
@@ -213,13 +220,14 @@ nav ul li a:hover{
     padding-bottom: 80px;
 }
 
-.Designs{
+.Designs {
     display: flex;
     justify-content: center;
     gap: 40px;
-    
+
 }
-.Designs-card{
+
+.Designs-card {
     position: relative;
     width: 350px;
     padding: 10px;
@@ -230,25 +238,26 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
-.Designs-card:hover{
+.Designs-card:hover {
     border: 1px solid #f44336;
 }
 
-.Portfolio h2{
+.Portfolio h2 {
     font-family: sans-serif;
     font-size: 50px;
     color: #f44336;
 }
 
-.Designs-card img{
+.Designs-card img {
     width: 300px;
     height: 160px;
     border-radius: 10px;
 }
 
-.Designs-card:hover{
+.Designs-card:hover {
     transform: scale(1.05);
 }
+
 /*Services*/
 .services {
     text-align: center;
@@ -263,15 +272,17 @@ nav ul li a:hover{
     width: auto;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .services h2 span {
     color: #f44336;
 }
-.services h2{
+
+.services h2 {
     font-size: 50px;
 }
+
 .service-container {
     display: flex;
     justify-content: center;
@@ -311,10 +322,10 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
-.icon-arrow:hover{
+.icon-arrow:hover {
     transform: scale(1.1);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    background: #f10a0a; 
+    background: #f10a0a;
 }
 
 .Contact {
@@ -322,12 +333,44 @@ nav ul li a:hover{
     border-radius: 5px;
     display: block;
     justify-items: center;
-    background-color: #a09896;
+    background: url(Assests/9lZ7.gif);
+    background-size: 100%;
 }
 
-.email{
+.Contact h2{
+    color: #ff7b00;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.Contact h2 span{
+    color: #f44336;
+}
+
+.email {
     width: 337px;
 }
+
+.form{
+    width: 523px;
+    border-radius: 5px;
+    border: 1px solid #f44336;
+}
+.SubmitButton{
+    justify-items: center;
+    align-items: center;
+    width: 530px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #f44336;
+    color: #ffffff;
+    border: 0px solid white;
+}
+.SubmitButton:hover{
+    background-color: #6d1e19;
+    cursor: pointer;
+}
+
 .menu-toggle {
     display: none;
     font-size: 1.5rem;
@@ -337,10 +380,86 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
+.fName,
+.LName {
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #f44336;
+}
 
+.email {
+    height: 25px;
+    width: 516px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #f44336;
+}
+
+.Navbar{
+    background-color:  #444;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    height: auto;
+    box-sizing: border-box;
+}
+.Navbar h3{
+    font-family: Copperplate;
+}
+.Navbar h2{
+    font-family: Lucida Console;
+}
+.Socials{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    position: relative;
+    gap: 20px;
+    font-family: sans-serif;
+}
+.B a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.B a:hover{
+    color: #ff8c84;
+}
+
+.Socials .B a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+.Socials .B a:hover::after {
+    width: 100%;
+}
+.Socials .B {
+    position: relative;
+    display: inline-block;
+}
+@media (max-width: 768px) {
+    .Socials{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .Navbar{
+        height: 100%;
+        
+    }
+}
 @media (max-width: 768px) {
     .Navbar ul {
-        display: none;  /* Hide by default */
+        display: none;
+        /* Hide by default */
         flex-direction: column;
         gap: 0;
         position: absolute;
@@ -350,54 +469,59 @@ nav ul li a:hover{
         background-color: #333;
         padding: 1rem;
     }
-    
+
     .Navbar ul.active {
         display: flex;
     }
-    
+
     .menu-toggle {
         display: inline;
     }
-    .Navbar{
+
+    .Navbar {
         height: 50px;
     }
 }
 
 @media (max-width: 768px) {
-    
-    .Designs-card{
+
+    .Designs-card {
         width: 350px;
         height: 210px;
     }
-    .Designs-card img{
+
+    .Designs-card img {
         width: 290px;
         height: 150px;
         align-items: center;
     }
-    .Designs{
+
+    .Designs {
         display: grid;
         grid-template-columns: 1fr;
-        
+
         justify-items: center;
 
     }
 }
 
 @media (max-width: 768px) {
-    
-    .service-card{
+
+    .service-card {
         width: 300px;
         height: 210px;
     }
-    .service-card img{
+
+    .service-card img {
         width: 250px;
         height: 140px;
         align-items: center;
     }
-    .service-container{
+
+    .service-container {
         display: grid;
         grid-template-columns: 1fr;
-        
+
         justify-items: center;
 
     }
