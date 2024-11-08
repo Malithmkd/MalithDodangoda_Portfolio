@@ -545,6 +545,7 @@ nav ul li a:hover {
         padding: 10px;
         border-end-end-radius: 65px;
         border-end-start-radius: 40px;
+        
     }
     .Navbar ul li{
         padding: 5px;
@@ -557,16 +558,20 @@ nav ul li a:hover {
     }
     .Navbar ul.active {
         display: flex;
+        
     }
 
     .menu-toggle {
         display: inline;
+        margin: -8px;
+        margin-left: auto;
     }
 
-    .Navbar {
-        height: -10px;
-        width: 90%;
-
+    
+    nav{
+        top: 0;
+        height: 20px;
+        width: 85%;
     }
 
 }
