@@ -10,7 +10,7 @@ nav {
     border-radius: 50px;
     padding: 25px;
     position: fixed;
-    top: 2;
+    top: 1;
     /* Aligns the navbar to the top of the viewport */
     width: 90%;
     /* Adjust width to prevent stretching across the entire viewport */
@@ -457,7 +457,7 @@ nav ul li a:hover {
     position: relative;
     display: inline-block;
 }
-
+/*Contact Form Responsiveness */
 @media (max-width:768px) {
     .Contact {
         display: grid;
@@ -508,8 +508,8 @@ nav ul li a:hover {
         padding: 0;
         margin-bottom: 0;
         gap: 0;
-        margin: -10px;
-        font-size: 10px;
+        margin: -15px;
+        font-size: 15px;
     }
 
     .Socials .B a::after {
@@ -529,10 +529,6 @@ nav ul li a:hover {
     .Footer p {
         font-size: 15px;
     }
-
-
-
-
 }
 
 @media (max-width: 768px) {
@@ -544,11 +540,21 @@ nav ul li a:hover {
         position: absolute;
         top: 3.5rem;
         left: 0;
-        width: auto;
-        background-color: #333;
-        padding: 1rem;
+        width: 100%;
+        background-color: #1f1e1e;
+        padding: 10px;
+        border-end-end-radius: 65px;
+        border-end-start-radius: 40px;
     }
-
+    .Navbar ul li{
+        padding: 5px;
+    }
+    .contact{
+        margin-right: auto;
+    }
+    .Name{
+        display: none;
+    }
     .Navbar ul.active {
         display: flex;
     }
@@ -558,8 +564,8 @@ nav ul li a:hover {
     }
 
     .Navbar {
-        height: 0px;
-        width: auto;
+        height: -10px;
+        width: 90%;
 
     }
 
@@ -607,4 +613,6 @@ nav ul li a:hover {
         justify-items: center;
 
     }
+
+    
 }
