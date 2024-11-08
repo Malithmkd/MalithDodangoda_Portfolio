@@ -337,13 +337,13 @@ nav ul li a:hover {
     background-size: 100%;
 }
 
-.Contact h2{
+.Contact h2 {
     color: #ff7b00;
     font-family: sans-serif;
     font-size: 50px;
 }
 
-.Contact h2 span{
+.Contact h2 span {
     color: #f44336;
 }
 
@@ -351,12 +351,13 @@ nav ul li a:hover {
     width: 337px;
 }
 
-.form{
+.form {
     width: 523px;
     border-radius: 5px;
     border: 1px solid #f44336;
 }
-.SubmitButton{
+
+.SubmitButton {
     justify-items: center;
     align-items: center;
     width: 530px;
@@ -366,9 +367,12 @@ nav ul li a:hover {
     color: #ffffff;
     border: 0px solid white;
 }
-.SubmitButton:hover{
-    background-color: #6d1e19;
+
+.SubmitButton:hover {
+    background-color: #fd0f0f;
     cursor: pointer;
+    box-shadow: 0 0 5px rgb(255, 102, 0), 0 0 5px rgb(255, 102, 0);
+
 }
 
 .menu-toggle {
@@ -397,22 +401,26 @@ nav ul li a:hover {
     border: 1px solid #f44336;
 }
 
-.Navbar{
-    background-color:  #444;
+.Footer {
+    background-color: #444;
     color: aliceblue;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
     height: auto;
     box-sizing: border-box;
+    width: 100%;
 }
-.Navbar h3{
+
+.Footer h3 {
     font-family: Copperplate;
 }
-.Navbar h2{
+
+.Footer h2 {
     font-family: Lucida Console;
 }
-.Socials{
+
+.Socials {
     display: flex;
     justify-content: center;
     margin: 5px;
@@ -420,11 +428,13 @@ nav ul li a:hover {
     gap: 20px;
     font-family: sans-serif;
 }
-.B a{
+
+.B a {
     text-decoration: none;
     color: aliceblue;
 }
-.B a:hover{
+
+.B a:hover {
     color: #ff8c84;
 }
 
@@ -438,24 +448,93 @@ nav ul li a:hover {
     background-color: currentColor;
     transition: width 0.3s ease;
 }
+
 .Socials .B a:hover::after {
     width: 100%;
 }
+
 .Socials .B {
     position: relative;
     display: inline-block;
 }
+
+@media (max-width:768px) {
+    .Contact {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .LName {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+        margin-bottom: -15px;
+    }
+
+    .email {
+        width: 250px;
+        margin-top: -10px;
+    }
+
+    .Form {
+        justify-items: center;
+    }
+
+    .form {
+        width: 255px;
+        justify-items: center;
+    }
+
+    .SubmitButton {
+        width: 260px;
+    }
+}
+
+/*Footer Mobile View */
 @media (max-width: 768px) {
-    .Socials{
+    .Socials {
         display: grid;
         grid-template-columns: 1fr;
         gap: 0px;
+        margin: -10px;
     }
-    .Navbar{
+
+    .Footer {
         height: 100%;
-        
+
     }
+
+    .B {
+        padding: 0;
+        margin-bottom: 0;
+        gap: 0;
+        margin: -10px;
+        font-size: 10px;
+    }
+
+    .Socials .B a::after {
+        /* Keep underline only for .B in mobile view */
+        width: 0;
+        height: 0;
+    }
+
+    .Footer h3 {
+        font-size: 12px;
+    }
+
+    .Footer h2 {
+        font-size: 15px;
+    }
+
+    .Footer p {
+        font-size: 15px;
+    }
+
+
+
+
 }
+
 @media (max-width: 768px) {
     .Navbar ul {
         display: none;
@@ -479,8 +558,11 @@ nav ul li a:hover {
     }
 
     .Navbar {
-        height: 50px;
+        height: 0px;
+        width: auto;
+
     }
+
 }
 
 @media (max-width: 768px) {
