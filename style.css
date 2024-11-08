@@ -457,6 +457,7 @@ nav ul li a:hover {
     position: relative;
     display: inline-block;
 }
+
 /*Contact Form Responsiveness */
 @media (max-width:768px) {
     .Contact {
@@ -543,22 +544,26 @@ nav ul li a:hover {
         width: 100%;
         background-color: #1f1e1e;
         padding: 10px;
-        border-end-end-radius: 65px;
+        border-end-end-radius: 40px;
         border-end-start-radius: 40px;
-        
+
     }
-    .Navbar ul li{
+
+    .Navbar ul li {
         padding: 5px;
     }
-    .contact{
+
+    .contact {
         margin-right: auto;
     }
-    .Name{
+
+    .Name {
         display: none;
     }
+
     .Navbar ul.active {
         display: flex;
-        
+
     }
 
     .menu-toggle {
@@ -567,9 +572,9 @@ nav ul li a:hover {
         margin-left: auto;
     }
 
-    
-    nav{
-        top: 0;
+
+    nav {
+        top: 1;
         height: 20px;
         width: 85%;
     }
@@ -614,10 +619,46 @@ nav ul li a:hover {
     .service-container {
         display: grid;
         grid-template-columns: 1fr;
-
         justify-items: center;
 
     }
-
+    .services{
+        justify-content: center;
+        justify-items: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
     
+
+}
+
+@media (max-width: 768px) {
+    .AboutImage{
+        width: 300px;
+        height: 300px;
+        margin-top: -999px;
+        margin-left: 60px;
+    }
+
+    .aboutmecontent{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 500px;
+    }
+
+    .aboutmecontent p{ 
+        margin-top: 250px;
+        width: 400px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .Home p{
+        display: none;
+    }
+
+    .icons{
+        display: none;
+    }
 }
