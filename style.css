@@ -542,17 +542,17 @@ nav ul li a:hover {
         position: absolute;
         top: 3.5rem;
         left: 0;
-        width: 90%;
+        width: 95%;
         background-color: #1f1e1e;
         padding: 10px;
         margin-top: 20px;
         border-radius: 40px;
-        
+
     }
 
     .Navbar ul li {
         padding: 8px;
-        
+
     }
 
     .contact {
@@ -578,10 +578,11 @@ nav ul li a:hover {
     nav {
         top: 1;
         height: 20px;
-        width: 88%;
+        width: 85%;
     }
-    .Home img{
-        width: auto;    
+
+    .Home img {
+        width: auto;
         max-width: 100%;
         height: auto;
     }
@@ -608,7 +609,8 @@ nav ul li a:hover {
         justify-items: center;
 
     }
-    .Main{
+
+    .Main {
         width: 100%;
     }
 }
@@ -632,45 +634,48 @@ nav ul li a:hover {
         justify-items: center;
 
     }
-    .services{
+
+    .services {
         justify-content: center;
         justify-items: center;
         margin-right: 0;
         margin-left: 0;
-        
+
     }
-    
+
 
 }
 
 @media (max-width: 768px) {
-    .AboutImage{
+    .AboutImage {
         width: 300px;
         height: 300px;
         margin-top: -1070px;
         margin-left: 60px;
     }
 
-    .aboutmecontent{
+    .aboutmecontent {
         display: grid;
         grid-template-columns: 1fr;
         height: 500px;
     }
 
-    .aboutmecontent p{ 
+    .aboutmecontent p {
         margin-top: 270px;
         width: auto;
         margin-bottom: 0;
     }
-    
+    .aboutme{
+        width: auto;
+    }
 }
 
-@media (max-width: 768px){
-    .Home p{
+@media (max-width: 768px) {
+    .Home p {
         display: none;
     }
 
-    .icons{
+    .icons {
         display: none;
     }
 }
