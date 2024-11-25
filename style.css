@@ -659,7 +659,7 @@ nav ul li a:hover {
 
     .aboutmecontent p{ 
         margin-top: 270px;
-        width: 350px;
+        width: auto;
         margin-bottom: 0;
     }
     .aboutme{
