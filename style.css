@@ -637,6 +637,7 @@ nav ul li a:hover {
         justify-items: center;
         margin-right: 0;
         margin-left: 0;
+        
     }
     
 
@@ -660,6 +661,9 @@ nav ul li a:hover {
         margin-top: 270px;
         width: 350px;
         margin-bottom: 0;
+    }
+    .aboutme{
+        width: 400px;
     }
 }
 
