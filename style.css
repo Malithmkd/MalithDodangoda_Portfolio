@@ -571,14 +571,14 @@ nav ul li a:hover {
     .menu-toggle {
         display: inline;
         margin: -8px;
-        margin-left: 330px;
+        margin-left: 320px;
     }
 
 
     nav {
         top: 1;
         height: 20px;
-        width: auto;
+        width: 80%;
     }
 
 }
