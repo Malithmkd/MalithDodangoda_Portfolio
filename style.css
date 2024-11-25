@@ -542,7 +542,7 @@ nav ul li a:hover {
         position: absolute;
         top: 3.5rem;
         left: 0;
-        width: 100%;
+        width: 90%;
         background-color: #1f1e1e;
         padding: 10px;
         margin-top: 20px;
@@ -571,15 +571,19 @@ nav ul li a:hover {
     .menu-toggle {
         display: inline;
         margin: -8px;
-        margin-right: auto;
-        margin-left: 400px;
+        margin-left: 350px;
     }
 
 
     nav {
         top: 1;
         height: 20px;
-        width: 100%;
+        width: 88%;
+    }
+    .Home img{
+        width: auto;    
+        max-width: 100%;
+        height: auto;
     }
 
 }
@@ -587,7 +591,7 @@ nav ul li a:hover {
 @media (max-width: 768px) {
 
     .Designs-card {
-        width: 100%;
+        width: 350px;
         height: 210px;
     }
 
@@ -604,12 +608,15 @@ nav ul li a:hover {
         justify-items: center;
 
     }
+    .Main{
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
 
     .service-card {
-        width: 100%;
+        width: 300px;
         height: 210px;
     }
 
