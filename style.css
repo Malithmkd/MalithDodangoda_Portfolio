@@ -571,7 +571,7 @@ nav ul li a:hover {
     .menu-toggle {
         display: inline;
         margin: -8px;
-        margin-left: 350px;
+        margin-left: 300px;
     }
 
 
@@ -664,9 +664,6 @@ nav ul li a:hover {
         margin-top: 270px;
         width: auto;
         margin-bottom: 0;
-    }
-    .aboutme{
-        width: 100%;
     }
 }
 
