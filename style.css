@@ -532,6 +532,7 @@ nav ul li a:hover {
     }
 }
 
+/*Navbar*/
 @media (max-width: 768px) {
     .Navbar ul {
         display: none;
@@ -541,16 +542,18 @@ nav ul li a:hover {
         position: absolute;
         top: 3.5rem;
         left: 0;
-        width: 100%;
+        width: 95%;
         background-color: #1f1e1e;
         padding: 10px;
-        border-end-end-radius: 40px;
-        border-end-start-radius: 40px;
+        margin-top: 20px;
+        border-radius: 40px;
+        
 
     }
 
     .Navbar ul li {
-        padding: 5px;
+        padding: 8px;
+        
     }
 
     .contact {
@@ -569,7 +572,7 @@ nav ul li a:hover {
     .menu-toggle {
         display: inline;
         margin: -8px;
-        margin-left: auto;
+        margin-left: 330px;
     }
 
 
