@@ -646,7 +646,7 @@ nav ul li a:hover {
     .AboutImage{
         width: 300px;
         height: 300px;
-        margin-top: -999px;
+        margin-top: -1070px;
         margin-left: 60px;
     }
 
@@ -657,8 +657,8 @@ nav ul li a:hover {
     }
 
     .aboutmecontent p{ 
-        margin-top: 250px;
-        width: 400px;
+        margin-top: 270px;
+        width: 350px;
         margin-bottom: 0;
     }
 }
