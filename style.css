@@ -548,7 +548,6 @@ nav ul li a:hover {
         margin-top: 20px;
         border-radius: 40px;
         
-
     }
 
     .Navbar ul li {
@@ -579,7 +578,7 @@ nav ul li a:hover {
     nav {
         top: 1;
         height: 20px;
-        width: 85%;
+        width: auto;
     }
 
 }
