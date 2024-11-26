@@ -13,6 +13,46 @@ const observerOptions = {
 };
 
 
+function toggleMenu() {
+    const toggleButton = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    // Toggle the menu display
+    if (navLinks.style.display === 'flex') {
+        navLinks.style.display = 'none';
+        toggleButton.textContent = '☰'; // Hamburger icon
+    } else {
+        navLinks.style.display = 'flex';
+        toggleButton.textContent = '✖'; // Close (X) icon
+    }
+}
+
+// Adjust the menu display based on window size
+function handleResize() {
+    const navLinks = document.querySelector('.nav-links');
+    const toggleButton = document.querySelector('.menu-toggle');
+
+    if (window.innerWidth > 768) {
+        // Ensure the menu is always visible in full view
+        navLinks.style.display = 'flex';
+        toggleButton.style.display = 'none'; // Hide the hamburger menu
+    } else {
+        // In mobile view, hide the menu and show the hamburger button
+        navLinks.style.display = 'none';
+        toggleButton.style.display = 'block';
+        toggleButton.textContent = '☰'; // Reset to hamburger icon
+    }
+}
+
+// Attach the resize event listener
+window.addEventListener('resize', handleResize);
+
+// Call handleResize on page load to initialize the proper state
+handleResize();
+
+
+
+
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
