@@ -27,28 +27,46 @@ function toggleMenu() {
     }
 }
 
+// Close the menu when any link is clicked
+function closeMenuOnClick() {
+    const navLinks = document.querySelector('.nav-links');
+    const toggleButton = document.querySelector('.menu-toggle');
+
+    // Hide the menu and reset the button to hamburger icon
+    navLinks.style.display = 'none';
+    toggleButton.textContent = '☰';
+}
+
+// Attach the click event listener to all nav items
+function setupNavLinkListeners() {
+    const navItems = document.querySelectorAll('.nav-links li a');
+    navItems.forEach((link) => {
+        link.addEventListener('click', closeMenuOnClick);
+    });
+}
+
 // Adjust the menu display based on window size
 function handleResize() {
     const navLinks = document.querySelector('.nav-links');
     const toggleButton = document.querySelector('.menu-toggle');
 
     if (window.innerWidth > 768) {
-        // Ensure the menu is always visible in full view
-        navLinks.style.display = 'flex';
+        navLinks.style.display = 'flex'; // Always show menu in full view
         toggleButton.style.display = 'none'; // Hide the hamburger menu
     } else {
-        // In mobile view, hide the menu and show the hamburger button
-        navLinks.style.display = 'none';
-        toggleButton.style.display = 'block';
+        navLinks.style.display = 'none'; // Hide menu by default in mobile view
+        toggleButton.style.display = 'block'; // Show the hamburger menu
         toggleButton.textContent = '☰'; // Reset to hamburger icon
     }
 }
 
-// Attach the resize event listener
+// Initialize event listeners on page load
 window.addEventListener('resize', handleResize);
+window.addEventListener('DOMContentLoaded', () => {
+    handleResize();
+    setupNavLinkListeners();
+});
 
-// Call handleResize on page load to initialize the proper state
-handleResize();
 
 
 
