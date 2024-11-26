@@ -353,6 +353,7 @@ nav ul li a:hover {
 
 .form {
     width: 523px;
+    height: 80px;
     border-radius: 5px;
     border: 1px solid #f44336;
 }
