@@ -573,9 +573,9 @@ nav ul li a:hover {
     }
 
     .menu-toggle {
-        display: inline;
+        display: flex;
         margin: -8px;
-        margin-left: 300px;
+        margin-left: auto;
     }
 
 
