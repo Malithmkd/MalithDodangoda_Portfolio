@@ -27,14 +27,16 @@ function toggleMenu() {
     }
 }
 
-// Close the menu when any link is clicked
+// Close the menu when any link is clicked (only in mobile view)
 function closeMenuOnClick() {
     const navLinks = document.querySelector('.nav-links');
     const toggleButton = document.querySelector('.menu-toggle');
 
-    // Hide the menu and reset the button to hamburger icon
-    navLinks.style.display = 'none';
-    toggleButton.textContent = '☰';
+    // Only close the menu in mobile view
+    if (window.innerWidth <= 768) {
+        navLinks.style.display = 'none';
+        toggleButton.textContent = '☰'; // Reset to hamburger icon
+    }
 }
 
 // Attach the click event listener to all nav items
