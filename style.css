@@ -550,6 +550,10 @@ nav ul li a:hover {
 
     }
 
+    .Name {
+        display: flex;
+    }
+
     .Navbar ul li {
         padding: 8px;
 
@@ -581,9 +585,8 @@ nav ul li a:hover {
         width: 80%;
     }
 
-    .Home img {
-        width: auto;
-        max-width: 100%;
+    .BGimage {
+        width: 80%;
         height: auto;
     }
 
@@ -683,6 +686,7 @@ nav ul li a:hover {
         opacity: 0;
         transform: translateY(20px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -690,15 +694,26 @@ nav ul li a:hover {
 }
 
 /* Apply animation to the paragraph */
-.para , .paraabout{
+.para,
+.paraabout {
     font-size: 18px;
     animation: fadeSlideUp 1.5s ease-out;
     margin: 20px;
 }
 
-.icons , .BGimage{
-    font-size: 18px;
-    animation: fadeSlideUp 1.5s ease-out;
-    margin: 20px;
+.icons,
+{
+font-size: 18px;
+animation: fadeSlideUp 1.5s ease-out;
+margin: 20px;
 }
 
+.Name {
+    font-family: lucida handwriting;
+    color: #ff3c00;
+    font-weight: bold;
+}
+
+.BGimage {
+    animation: fadeSlideUp 1.5s ease-out;
+}
