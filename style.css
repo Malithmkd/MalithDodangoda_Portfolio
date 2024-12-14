@@ -565,7 +565,11 @@ nav ul li a:hover {
     }
 
     .Name {
-        display: none;
+        
+        position: absolute;
+        top: 10px;
+        left: 20px; /* Always keep "Malith" in the top-left corner */
+        font-size: 22px; /* Slightly larger font for better visibility */
     }
 
     .Navbar ul.active {
@@ -591,6 +595,7 @@ nav ul li a:hover {
         width: 80%;
         height: auto;
     }
+   
 
 }
 
