@@ -683,8 +683,12 @@ nav ul li a:hover {
         display: none;
     }
 
-    .icons {
-        display: none;
+    .icons i {
+        
+        align-items: center;
+        margin-left: auto;
+        margin-top: 100px;
+        margin-right: 80px;
     }
 }
 
