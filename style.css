@@ -412,6 +412,8 @@ nav ul li a:hover {
     height: auto;
     box-sizing: border-box;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .Footer h3 {
@@ -427,10 +429,48 @@ nav ul li a:hover {
     justify-content: center;
     margin: 5px;
     position: relative;
-    gap: 20px;
+    gap: 10px;
     font-family: sans-serif;
 }
+.Socials p{
+    top: 50%;
+}
+.Socials i {
+    color: #ffffffd8;
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+}
 
+.Socials i:hover {
+    color: #f44336;
+}
+
+.Socials .fb {
+    right: 150px;
+    top: 40%;
+    position: absolute;
+}
+
+
+.Socials .insta {
+    right: 100px;
+    top: 40%;
+    position: absolute;
+}
+
+.Socials .Linkedin {
+    right: 50px;
+    top: 40%;
+    position: absolute;
+}
+
+.Socials .Behance {
+    right: 0;
+    top: 40%;
+    position: absolute;
+}
 .B a {
     text-decoration: none;
     color: aliceblue;
@@ -439,7 +479,10 @@ nav ul li a:hover {
 .B a:hover {
     color: #ff8c84;
 }
-
+.Socials{
+    margin-left: auto;
+    margin-right: 0px;
+}
 .Socials .B a::after {
     content: '';
     position: absolute;
@@ -520,7 +563,10 @@ nav ul li a:hover {
         width: 0;
         height: 0;
     }
-
+    .Socials{
+        margin-left: auto;
+        margin-right: 0px;
+    }
     .Footer h3 {
         font-size: 12px;
     }
@@ -531,6 +577,38 @@ nav ul li a:hover {
 
     .Footer p {
         font-size: 15px;
+    }
+    .Socials i {
+        color: #ffffffd8;
+        font-size: 20px;
+        position: absolute;
+        right: 0px;
+        top: 50%;
+    }
+    
+    .Socials i:hover {
+        color: #f44336;
+    }
+    
+    .Socials .fb {
+       display: none;
+    }
+    
+    
+    .Socials .insta {
+        display: none;
+    }
+    
+    .Socials .Linkedin {
+        right: 30px;
+        top: 40%;
+        position: absolute;
+    }
+    
+    .Socials .Behance {
+        right: 0;
+        top: 40%;
+        position: absolute;
     }
 }
 
