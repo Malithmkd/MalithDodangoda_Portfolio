@@ -198,12 +198,15 @@ nav ul li a:hover {
     margin-top: -100px;
 }
 
-.UL {
-    margin-left: -1000px;
-    display: flex;
-    justify-content: left;
+.CV{
+    text-decoration: none;
+    color: #f10a0a;
     font-family: sans-serif;
-    color: aliceblue;
+    font-weight: bold;
+    font-size: medium;
+}
+.CV:hover{
+    color: #f44336;
 }
 
 /*Designs*/
